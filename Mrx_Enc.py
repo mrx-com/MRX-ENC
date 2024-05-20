@@ -85,14 +85,16 @@ def animation(u):
     for e in u + "\n":sys.stdout.write(e);sys.stdout.flush();time.sleep(0.01)    
 #------------------[ LOGO ]-----------------#
 logo =f"""  
-  _____________   ____
- /   _____/\   \ /   /
- \_____  \  \   Y   /   
- /        \  \     /   \33[1;97mOWNER   : MRX ZAHIRUL
-/_______  /   \___/    \33[1;97mGITHUB  :MRX
-        \/             \33[1;97mVERSION : \33[1;96mENCODE\33[1;97m
+███    ███ ██████  ██   ██ 
+████  ████ ██   ██  ██ ██  
+██ ████ ██ ██████    ███   
+██  ██  ██ ██   ██  ██ ██  
+██      ██ ██   ██ ██   ██ 
+\33[1;97mOWNER   : MRX ZAHIRUL
+\33[1;97mGITHUB  : MRX
+\33[1;97mVERSION : \33[1;96mENCODE\33[1;97m
 \033[1;37m—————————————————————————————————————————————\x1b[1;97m
--fuwk3rrr saura'v herrr'w - laud3y !-
+Muhammad Zahirul (Mrx)
 \033[1;37m—————————————————————————————————————————————\x1b[1;97m"""       
 #-------------[ ENCODE encodee ]------------------#           		
 def encodee():
