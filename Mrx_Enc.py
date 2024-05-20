@@ -136,7 +136,7 @@ def x1():
     ups = open(saureyxx, 'rb').read()
     ui = base64.b16encode(ups)
     output = saureyxx.replace('.py', '') + '_enc.py'
-    cok = open(output, 'w').write('#THHEE FWAKERR LEEGGENND SSAURAVVV HHEREE-!\n#——————————————————————————————————————\n import base64\nexec(base64.b16decode(' + str(ui) + '))')
+    cok = open(output, 'w').write('#তোরা আমার ফাইল নিবি সাহস তো কম না। আমি MUHAMMAD ZAHIRUL ( MRX)-!\n#——————————————————————————————————————\n import base64\nexec(base64.b16decode(' + str(ui) + '))')
     print(f"\33[1;96m>>\x1b[1;97m SUCCESSFULLY ENCRYPTED : %s" % saureyxx)
     line()
     print(f"\33[1;96m>>\x1b[1;97m SAVED AS : \33[1;96m%s" % output)
@@ -150,7 +150,7 @@ def x2():
 	ups = open(saureyxx, 'rb').read()
 	ui = base64.b32encode(ups)
 	output = saureyxx.replace('.py', '') + '_enc.py'
-	cok = open(output, 'w').write('#THHEE FWAKERR LEEGGENND SSAURAVVV HHEREE-!\n#——————————————————————————————————————\nimport base64\nexec(base64.b32decode(' + str(ui) + '))')
+	cok = open(output, 'w').write('# তোরা আমার ফাইল নিবি সাহস তো কম না। আমি MUHAMMAD ZAHIRUL ( MRX)-!\n#——————————————————————————————————————\nimport base64\nexec(base64.b32decode(' + str(ui) + '))')
 	print(f"\33[1;96m>>\x1b[1;97m SUCCESSFULLY ENCRYPTED : %s" % saureyxx)
 	line()
 	print(f"\33[1;96m>>\x1b[1;97m SAVED AS : \33[1;96m%s" % output)
@@ -164,7 +164,7 @@ def x3():
 	ups = open(saureyxx, 'rb').read()
 	ui = base64.b64encode(ups)
 	output = saureyxx.replace('.py', '') + '_enc.py'
-	cok = open(output, 'w').write('#THHEE FWAKERR LEEGGENND SSAURAVVV HHEREE-!\n#——————————————————————————————————————\nimport base64\nexec(base64.b64decode(' + str(ui) + '))')
+	cok = open(output, 'w').write('# তোরা আমার ফাইল নিবি সাহস তো কম না। আমি MUHAMMAD ZAHIRUL ( MRX) !\n#——————————————————————————————————————\nimport base64\nexec(base64.b64decode(' + str(ui) + '))')
 	print(f"\33[1;96m>>\x1b[1;97m SUCCESSFULLY ENCRYPTED : %s" % saureyxx)
 	line()
 	print(f"\33[1;96m>>\x1b[1;97m SAVED AS : \33[1;96m%s" % output)
@@ -180,7 +180,7 @@ def x4():
 	m = marshal.dumps(a)
 	s = repr(m)
 	output = saureyxx.replace('.py', '') + '_enc.py'
-	cok = open(output, 'w').write('#THHEE FWAKERR LEEGGENND SSAURAVVV HHEREE-!\n#——————————————————————————————————————\nimport marshal\nexec(marshal.loads(' + s + '))')
+	cok = open(output, 'w').write('#তোরা আমার ফাইল নিবি সাহস তো কম না। আমি MUHAMMAD ZAHIRUL ( MRX)-!\n#——————————————————————————————————————\nimport marshal\nexec(marshal.loads(' + s + '))')
 	print(f"\33[1;96m>>\x1b[1;97m SUCCESSFULLY ENCRYPTED : %s" % saureyxx)
 	line()
 	print(f"\33[1;96m>>\x1b[1;97m SAVED AS : \33[1;96m%s" % output)
@@ -197,7 +197,7 @@ def x5():
 	z = zlib.compress(m)
 	b = base64.b16encode(z)
 	output = saureyxx.replace('.py', '') + '_enc.py'
-	cok = open(output, 'w').write('#THHEE FWAKERR LEEGGENND SSAURAVVV HHEREE-!\n#——————————————————————————————————————\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b16decode(' + str(b) + '))))')
+	cok = open(output, 'w').write('#তোরা আমার ফাইল নিবি সাহস তো কম না। আমি MUHAMMAD ZAHIRUL ( MRX)-!\n#——————————————————————————————————————\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b16decode(' + str(b) + '))))')
 	print(f"\33[1;96m>>\x1b[1;97m SUCCESSFULLY ENCRYPTED : %s" % saureyxx)
 	line
 	print(f"\33[1;96m>>\x1b[1;97m SAVED AS : \33[1;96m%s" % output)
@@ -214,7 +214,7 @@ def x6():
 	z = zlib.compress(m)
 	b = base64.b32encode(z)
 	output = saureyxx.replace('.py', '') + '_enc.py'
-	cok = open(output, 'w').write('#THHEE FWAKERR LEEGGENND SSAURAVVV HHEREE-!\n#——————————————————————————————————————\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b32decode(' + str(b) + '))))') 
+	cok = open(output, 'w').write('#তোরা আমার ফাইল নিবি সাহস তো কম না। আমি MUHAMMAD ZAHIRUL ( MRX)-!\n#——————————————————————————————————————\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b32decode(' + str(b) + '))))') 
 	print(f"\33[1;96m>>\x1b[1;97m SUCCESSFULLY ENCRYPTED : %s" % saureyxx)
 	line()
 	print(f"\33[1;96m>>\x1b[1;97m SAVED AS : \33[1;96m%s" % output)
@@ -231,7 +231,7 @@ def x7():
 	z = zlib.compress(m)
 	b = base64.b64encode(z)
 	output = saureyxx.replace('.py', '') + '_enc.py'
-	cok = open(output, 'w').write('#THHEE FWAKERR LEEGGENND SSAURAVVV HHEREE-!\n#——————————————————————————————————————\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b64decode(' + str(b) + '))))')
+	cok = open(output, 'w').write('#তোরা আমার ফাইল নিবি সাহস তো কম না। আমি MUHAMMAD ZAHIRUL ( MRX)-!\n#——————————————————————————————————————\nimport marshal,zlib,base64\nexec(marshal.loads(zlib.decompress(base64.b64decode(' + str(b) + '))))')
 	print(f"\33[1;96m>>\x1b[1;97m SUCCESSFULLY ENCRYPTED : %s" % saureyxx)
 	line()
 	print(f"\33[1;96m>>\x1b[1;97m SAVED AS : \33[1;96m%s" % output)
